@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(name='unix-time',
-      version='1.0.0',
+      version='2.0.0',
       url='https://github.com/tallesl/py-unix-time',
       author='Talles Lasmar',
       author_email='talleslasmar@gmail.com',

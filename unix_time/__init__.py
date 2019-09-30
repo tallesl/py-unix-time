@@ -22,6 +22,10 @@ def ts_yesterday() -> int:
     return ts(date.today() - timedelta(days=1))
 
 
+def ts_tomorrow() -> int:
+    return ts(date.today() - timedelta(days=-1))
+
+
 # https://stackoverflow.com/a/1937631
 def _to_datetime(dt: Union[date, datetime]) -> datetime:
     return datetime(*dt.timetuple()[:6]) if type(dt) is date else dt
